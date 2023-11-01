@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Authentication</title>
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+<h1>Connexion</h1>
+<form action="chat.html" method="post">
+
+  <div id="error-message" class="custom-alert-danger" style="display: none;">
+    Authentification échouée. Veuillez vérifier votre email et votre mot de passe.
+  </div>
+
+
+
+
+  <input type="email" name="email" placeholder="Email">
+  <input type="password" name="password" placeholder="Password">
+  <input type="submit" value="Login">
+  <a  onclick="window.location.href='register.html'">Register</a>
+</form>
+</body>
+<script src="js/login.js"></script>
+</html>
